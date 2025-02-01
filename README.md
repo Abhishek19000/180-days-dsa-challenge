@@ -24,7 +24,7 @@ Welcome to my **180 Days DSA Challenge**! 🎯 The goal is to solve Data Structu
 
 ### 🚀 Let's Connect!  
 📩 **Email:** abhiraj19000@gmail.com  
-👨‍💻 **GitHub:** [[your-github-profile](https://github.com/Abhishek19000) ]
+👨‍💻 **GitHub:** https://github.com/Abhishek19000
 💼 **LinkedIn:** [your-linkedin-profile][(https://www.linkedin.com/in/abhishekraj19000)]  
 
 🔥 **Let's Ace DSA Together!** 💪
