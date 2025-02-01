@@ -9,16 +9,24 @@ Welcome to my **180 Days DSA Challenge**! 🎯 The goal is to solve Data Structu
 
 ---
 
-### 📂 Repository Structure
+### 🔗 Useful Resources
+- [LeetCode](https://leetcode.com/)
+- [GeeksforGeeks](https://www.geeksforgeeks.org/)
+- [CodeForces](https://codeforces.com/)
+- [InterviewBit](https://www.interviewbit.com/)
 
+---
 
-180-Days-DSA-Challenge/
-│── Day-1/
-│   ├── problem1.py
-│   ├── problem1.cpp
-│── Day-2/
-│   ├── problem2.py
-│   ├── problem2.cpp
-│── ...
-│── README.md
+### 💡 How to Contribute?
+- If you want to suggest an improvement, feel free to **open an issue** or submit a **pull request**.
+
+---
+
+### 🚀 Let's Connect!  
+📩 **Email:** abhiraj19000@gmail.com  
+👨‍💻 **GitHub:** [[your-github-profile](https://github.com/Abhishek19000) ]
+💼 **LinkedIn:** [your-linkedin-profile][(https://www.linkedin.com/in/abhishekraj19000)]  
+
+🔥 **Let's Ace DSA Together!** 💪
+
 
