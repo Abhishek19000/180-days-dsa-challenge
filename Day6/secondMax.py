@@ -30,3 +30,12 @@ def secondMax(arr:list[int])->int:
 def secondMax(arr:list[int])->int:
     maxi=float('-inf')
     secondMax=float('-inf')
+    n=len(arr)
+
+    for i in range(n):
+        if arr[i]>maxi:
+            secondMax=maxi
+            maxi=arr[i]
+        elif arr[i]>secondMax and arr[i]!=maxi:
+            secondMax=arr[i]
+    return secondMax
