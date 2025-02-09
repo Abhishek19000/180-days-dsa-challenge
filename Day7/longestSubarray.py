@@ -27,7 +27,7 @@ def subArr(arr:list[int],k)->int:
         sum+=arr[i]
 
         if sum==k:
-            length=max(length,i)
+            length=max(length,i+1)
 
         preSum=sum-k
 
