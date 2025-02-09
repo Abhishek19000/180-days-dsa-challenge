@@ -10,7 +10,7 @@ def sumTwo(arr:list[int],k)->list[int]:
     
     return [-1,-1]
 
-#Better approach : 
+#Better approach : O(n) but with the space complexity as O(n) 
 
 def sumTwo(arr:list[int],k)->list[int]:
 
@@ -26,3 +26,21 @@ def sumTwo(arr:list[int],k)->list[int]:
         eleInMap[num]=i
 
     return -1
+
+#Optimised approach : O(n)
+
+def sumTwo(arr:list[int],k)->list[int]:
+    n=len(arr)
+    i=0
+    j=n-1
+    arr.sort()
+    
+    while(i<j):
+        if arr[i]+arr[j]==k:
+            return [i,j]
+        elif arr[i]+arr[j]<k:
+            i+=1
+        else:
+            j-=1
+    return [-1,-1]
+
