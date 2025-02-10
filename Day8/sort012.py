@@ -1,4 +1,4 @@
-#Sort the array containing 0's ,1's and 2's
+#Sort the array containing 0's ,1's and 2's number
 
 #BruteForce: O(nlogn)
 
