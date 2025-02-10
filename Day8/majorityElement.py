@@ -14,7 +14,7 @@ def majorityEle(arr:list[int])->list[int]:
             return ele
     return -1
 
-#Better approach:O(nlogn)
+#Better approach:O(nlogn) + O(n)
 
 def majorityEle(arr:list[int])->list[int]:
     n = len(arr)
