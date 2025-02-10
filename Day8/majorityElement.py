@@ -13,3 +13,20 @@ def majorityEle(arr:list[int])->list[int]:
         if count>n/2:
             return ele
     return -1
+
+#Better approach:
+
+def majorityEle(arr:list[int])->list[int]:
+    n = len(arr)
+    eleFreq={}
+    for num in arr:
+        if num in eleFreq:
+            eleFreq[num]+=1
+        else:
+            eleFreq[num]=1
+
+    for num,count in eleFreq.items():
+        if count>n/2:
+            return num
+        
+    return -1
